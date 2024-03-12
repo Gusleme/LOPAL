@@ -1,23 +1,24 @@
 programa {
 
   funcao inicio() {
-    inteiro maior = 0
-    inteiro numero, i, n[8] /* O número 8 representa o 
-    número de elementos e não do último índice */
+    inteiro maior = 0, indice
+    inteiro numero, i, n[8] /* O nÃºmero 8 representa o 
+    nÃºmero de elementos e nÃ£o do Ãºltimo Ã­ndice */
 
 para(i = 0; i < 8; i++){
-    escreva("Qual o valor do índice ",i,": ?\n")
+    escreva("Qual o valor do Ã­ndice ",i,": ?\n")
     leia(n[i])
     }
 
 para(i = 0; i < 8; i++){
   se(n[i] > maior){
     maior = n[i]
+    indice = i
   }
 }
 
-escreva("O maior valor é: ",maior,"\n")
-escreva("o maior indice é:",i,"\n")
+escreva("O maior valor Ã©: ",maior,"\n")
+escreva("o maior indice Ã©:",i,"\n")
 
 
   }
