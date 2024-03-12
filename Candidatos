@@ -1,8 +1,8 @@
 
-/*  DescriÁ„o:
+/*  Descri√ß√£o:
  * 
- * 	Este exemplo ilustra o uso do laÁo "faca-enquanto", simulando uma eleiÁ„o entre 
- * 	dois candidatos. O exemplo ilustra tambÈm o uso do comando "escolha" para contabilizar
+ * 	Este exemplo ilustra o uso do la√ßo "faca-enquanto", simulando uma elei√ß√£o entre 
+ * 	dois candidatos. O exemplo ilustra tamb√©m o uso do comando "escolha" para contabilizar
  * 	os votos de cada candidato.
  * 	
  *  Autor: Leandro Gaudio Rosa
@@ -57,7 +57,7 @@ programa
 			escreva("  2 ->",candidatob,"\n")
 			escreva("  3 -> Branco\n")
 			
-			escreva("\nQualquer n˙mero diferente de 0, 1, 2 e 3 anular· o seu voto\n")
+			escreva("\nQualquer n√∫mero diferente de 0, 1, 2 e 3 anular√° o seu voto\n")
 			escreva("Digite seu voto: ")
 			
 			leia(voto)
@@ -66,7 +66,7 @@ programa
 			escolha (voto)
 			{
 				caso 0:
-					escreva ("VotaÁ„o encerrada!\n")
+					escreva ("Vota√ß√£o encerrada!\n")
 				pare
 				
 				caso 1: 
@@ -82,7 +82,7 @@ programa
 			 	pare
 			 	
 			 	caso contrario:
-			 		nulos = nulos + 1 // OpÁ„o inv·lida. Soma um voto nulo
+			 		nulos = nulos + 1 // Op√ß√£o inv√°lida. Soma um voto nulo
 			}			 
 		}
 		enquanto(voto != 0)
@@ -106,7 +106,7 @@ programa
 			escreva("Candidato B: ", candidato_b, " voto(s). ", porcentagem_candidato_b, " % do total\n" )
 			escreva("Brancos: ", brancos, " voto(s). ", porcentagem_brancos, " % do total\n")
 			escreva("Nulos: ", nulos, " voto(s). ", porcentagem_nulos, " % do total\n")
-      escreva("deseja realizar uma nova eleiÁ„o?")
+      escreva("deseja realizar uma nova elei√ß√£o?")
     
           
         
